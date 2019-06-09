@@ -1,0 +1,9 @@
+README.md:
+	
+	touch README.md
+	echo "Guessing game project." > README.md
+	echo "This file was created: " >> README.md
+	date >> README.md
+	echo "This file has this number of lines of code: " >> README.md
+	wc -l guessinggame.sh >> README.md
+
